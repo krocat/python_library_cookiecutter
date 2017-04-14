@@ -4,10 +4,9 @@ Python Library Template
 Cookiecutter template for a Python library script. 
 
 
-Remember, when creating a cli program with this template, to:
+Remember, when creating a library with this template, to:
 
  * Fill in all your requirements in requirements.txt
- * Think about how you want to solve logging. The template has an command line option for a config file and will log to stdout when it's not set
  * If you add more packages (subdirectories) than the one you create your project for, add them to the packages in setup.py
  * Write **tests** for you software and put them in tests/
  * **Document** your project.
