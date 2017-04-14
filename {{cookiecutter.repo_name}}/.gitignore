@@ -1,3 +1,4 @@
+### MANAGED START ###
 # Packages
 *.egg
 *.egg-info
@@ -24,6 +25,8 @@ pip-log.txt
 .coverage
 .tox
 nosetests.xml
+htmlcov
+test-output
 
 # Translations
 *.mo
@@ -40,13 +43,15 @@ output/*/index.html
 # Sphinx
 docs/_build
 
-# Cookiecutter
-output/
-boilerplate/
-
-# editor backup files
-*~
-
-# pycharm
+# pyCharm
 .idea
 
+# VirtualEnv
+env
+env*
+
+# Mac
+.DS_Store
+
+
+### MANAGED STOP ###
